@@ -4,8 +4,7 @@
 const IMAGE_LIST_URL = [
     "https://static.wixstatic.com/media/c33238_295be364138845409c9883c2b85c4691~mv2.jpg/v1/fill/w_2840,h_1470,q_90,enc_avif,quality_auto/c33238_295be364138845409c9883c2b85c4691~mv2.jpg",
     
-    "https://static.wixstatic.com/media/c33238_5045d226eda849c08eae23995e839d52~mv2.jpg/v1/fill/w_2880,h_1470,fp_0.53_0.57,q_90,enc_avif,quality_auto/c33238_5045d226eda849c08eae23995e839d52~mv2.jpg",
-    "https://static.wixstatic.com/media/c33238_545074b379074a73bfa8b131a83ac6fd~mv2.jpg/v1/fill/w_2880,h_1470,fp_0.5_0.81,q_90,enc_avif,quality_auto/c33238_545074b379074a73bfa8b131a83ac6fd~mv2.jpg",
+    "https://static.wixstatic.com/media/c33238_5045d226eda849c08eae23995e839d52~mv2.jpg/v1/fill/w_3840,h_1854,fp_0.53_0.57,q_90,enc_avif,quality_auto/c33238_5045d226eda849c08eae23995e839d52~mv2.jpg",
     "https://static.wixstatic.com/media/c33238_8071fe6332c6419bac175168e685fde5~mv2.jpg/v1/fill/w_2880,h_1470,fp_0.51_0.52,q_90,enc_avif,quality_auto/c33238_8071fe6332c6419bac175168e685fde5~mv2.jpg",
     
 
