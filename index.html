@@ -524,41 +524,6 @@
         closeSidebarBtn.addEventListener('click', closeSidebar);
         overlay.addEventListener('click', closeSidebar);
 
-        // Flip navbar colors to black once it crosses the hero section
-        const mainNavbar = document.getElementById('main-navbar');
-        const navbarLogo = document.getElementById('main-navbar-logo');
-        const navLinks = document.querySelectorAll('.nav-link');
-        const navbarCta = document.getElementById('main-navbar-cta');
-        const hamburgerBtn2 = document.getElementById('hamburger-btn');
-
-        function updateNavbarColors() {
-          const heroHeight = document.querySelector('.spacer').offsetHeight;
-          const scrolledPastHero = window.scrollY > heroHeight - mainNavbar.offsetHeight;
-
-          navLinks.forEach(function (link) {
-            link.classList.toggle('text-white', !scrolledPastHero);
-            link.classList.toggle('text-black', scrolledPastHero);
-          });
-
-          if (navbarCta) {
-            navbarCta.classList.toggle('text-white', !scrolledPastHero);
-            navbarCta.classList.toggle('border-white/60', !scrolledPastHero);
-            navbarCta.classList.toggle('text-black', scrolledPastHero);
-            navbarCta.classList.toggle('border-black/60', scrolledPastHero);
-          }
-
-          if (hamburgerBtn2) {
-            hamburgerBtn2.classList.toggle('text-white', !scrolledPastHero);
-            hamburgerBtn2.classList.toggle('text-black', scrolledPastHero);
-          }
-
-          if (navbarLogo) {
-            navbarLogo.classList.toggle('invert', !scrolledPastHero);
-          }
-        }
-
-        window.addEventListener('scroll', updateNavbarColors);
-        updateNavbarColors();
 
         sidebarLinks.forEach(function (link) {
           link.addEventListener('click', closeSidebar);
